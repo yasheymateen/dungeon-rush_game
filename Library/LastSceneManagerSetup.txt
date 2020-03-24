@@ -1,0 +1,13 @@
+sceneSetups:
+- path: Assets/Levels/Main Menu.unity
+  isLoaded: 1
+  isActive: 1
+- path: Assets/Levels/Level 0.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Levels/Level 1.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Levels/Level 2.unity
+  isLoaded: 0
+  isActive: 0

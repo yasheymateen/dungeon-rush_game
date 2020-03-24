@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Dungeon Runner</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Rush</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Downloads.json", {onProgress: UnityProgress});
+    </script>
+</head>
+
+<body id="page-top" style="height: 772px;">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">EY Games</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler float-right" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div
+                class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#download">Download</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#features">Features</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <header class="masthead" style="background: url('assets/img/retro_wallpaper.jpg');height: 71%;min-height: 602px;">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-lg-7 my-auto">
+                    <div class="mx-auto header-content">
+                        <h1 class="mb-5">Dungeon Rush - A new Type of Side-scroller</h1><a class="btn btn-outline-warning btn-xl js-scroll-trigger" role="button" href="#download">Play Below if you Dare</a></div>
+                </div>
+                <div class="col-lg-5 my-auto" style="height: 594px;">
+                    <div class="device-container">
+                        <div class="device-mockup iphone6_plus portrait white">
+                            <div class="device" style="background-image: url('assets/img/iphone_6_plus_white_port.png');height: 480px;width: 265px;margin-top: 49px;margin-right: -1px;margin-left: 110px;">
+                                <div class="screen" style="height: 448px;"><img class="img-fluid" src="assets/img/Annotation%202020-03-11%20095557.jpg" style="max-width: 286px;"></div>
+                                <div class="button"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="iphone-mockup"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!--<section id="features" class="features" style="height: 700px; margin:auto;">
+
+    
+    
+        <div class="webgl-content" style="height:650px; width:100%; margin:auto;">
+                  -->
+        <div id="gameContainer" style="width: 100%; height: 700px; padding: 30px; border: 20px; margin:auto; position: relative;">
+            <iframe id='webgl_iframe' frameborder="0" allow="autoplay; fullscreen; vr" allowfullscreen="" allowvr="" 
+    mozallowfullscreen="true" src="https://connect.unity3dusercontent.com/webgl/cfa05f05-8888-4ad1-acda-a4f9bf1c003b?screenshot=false&embedType=embed"  width="810"
+    height="640" onmousewheel="" webkitallowfullscreen="true"></iframe>
+        </div>
+        <div class="footer">
+            <div class="webgl-logo">
+            </div>
+              <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)">
+              </div>
+              <div class="title">Rush</div>
+        </div>
+            <!--
+          </div>
+        </div>
+      </section>
+      -->
+    <section class="cta" style="background-image:url('assets/img/bg-cta.jpg'); height: 250px;">
+        <div class="cta-content">
+            <div class="container"><a class="btn btn-outline-warning btn-xl js-scroll-trigger" role="button" href="#contact">Coming Soon to Android!</a></div>
+        </div>
+    </section>
+    <!--
+    <section id="contact" class="contact bg-primary">
+        <div class="container">
+            <h2><span>We&nbsp;</span><i class="fa fa-heart"></i><span>&nbsp;new friends!</span></h2>
+            <ul class="list-inline list-social">
+                <li class="list-inline-item social-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li class="list-inline-item social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li class="list-inline-item social-google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    -->
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+    var gameInstance = UnityLoader.instantiate("gameContainer", "Build/webgl.json", {onProgress: UnityProgress});
+    </script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/new-age.js"></script>
+</body>
+<footer>
+    <div class="container">
+        <p>©&nbsp;EY Games : Dungeon Rush 2020. All Rights Reserved.</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="www.github.com/yasheymateen">Yashar Mateen</a></li>
+            <li class="list-inline-item"><a href="www.github.com/guilmeister">Edward Guillermo</a></li>
+        </ul>
+    </div>
+</footer>
+
+</html>
