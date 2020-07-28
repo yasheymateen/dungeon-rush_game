@@ -5,9 +5,9 @@
 	<img src="https://i.imgur.com/6dNBPyD.jpg">
 </p>
 
-We were inspired to develop this game after constantly seeing a flood of "new-age", shooter-style games. We decided to challenge ourselves to create a Mario-style game, having no experience, much less programmed in C#, we decided this would be the best test of our grit during our final portfolio project.
+I was inspired to develop this game after constantly seeing a flood of "new-age", shooter-style games. I decided to challenge myself to create a Mario-style game, having no experience, much less programmed in C#, I decided this would be the best test of my grit during my final portfolio project.
 ## But Why?
-This project encompasses many of the advanced engineering concepts we have learned throughout our time here at Holberton School. As a final portfolio project, we challenged ourselves to apply everything we have learned as well as apply C#, a language that we had self-taught in the preceding 4 weeks. 
+This project encompasses many of the advanced engineering concepts we have learned throughout our time here at Holberton School. As a final portfolio project, I challenged myself to apply everything we have learned as well as apply C#, a language that I had self-taught in the preceding 4 weeks. 
 
 
 
@@ -42,9 +42,8 @@ Similar to the mechanics of the game Mario, the objective of the game is to go f
 * Unity Cloud
 * Web Domain - GoDaddy
 
-### Authors
+### Author
 * **Yashar Mateen** - [yasheymateen](https://www.github.com/yasheymateen)<br/>
-* **Edward Guillermo** - [guillmeister](https://www.github.com/guilmeister)<br/>
 
 ## License
 
